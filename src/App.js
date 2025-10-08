@@ -11,7 +11,8 @@ export const AppContainer = styled.div`
 `;
 
 export const Heading = styled.h1`
-    font-size: 3em;
+    font-size: 5em;
+    font-family: 'Rubik Bubbles', system-ui;
     margin-bottom: 20px;
 `;
 

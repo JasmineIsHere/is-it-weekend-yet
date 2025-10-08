@@ -6,7 +6,7 @@ function App() {
     <>
       <GlobalStyle />
       <AppContainer>
-        <Heading>Is It Weekend Yet?</Heading>
+        <Heading>Is it WEEKENDS yet?</Heading>
       </AppContainer>
     </>
   );
