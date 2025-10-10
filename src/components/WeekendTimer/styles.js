@@ -10,12 +10,7 @@ export const PageContainer = styled.div`
     padding: 20px;
 `;
 
-export const Heading = styled.h1`
-    font-size: 3em;
-    margin-bottom: 20px;
-`;
-
-export const Digit = styled.div`
+export const Time = styled.div`
     font-size: 2em;
     margin: 20px 0;
 `;
