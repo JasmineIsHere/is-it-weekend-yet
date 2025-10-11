@@ -10,14 +10,14 @@ const Celebration = () => {
 
   return (
     <>
-      <Image src="/rickroll.gif" alt="Rick Astley Dancing" width={100} height={100}/>      
+      <Image src="/is-it-weekend-yet/rickroll.gif" alt="Rick Astley Dancing" width={100} height={100}/>      
       <BlinkAnimation>
         <Heading onClick={toggleMute}>
           It's the weekend! 🎉
         </Heading>  
       </BlinkAnimation>
       
-      <audio src='/rickrollonloop.m4a' autoPlay loop muted={isMuted}/>
+      <audio src='/is-it-weekend-yet/rickrollonloop.m4a' autoPlay loop muted={isMuted}/>
     </>
   )
 }
