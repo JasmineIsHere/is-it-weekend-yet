@@ -6,7 +6,7 @@ export const Heading = styled.h1`
     margin: 0;
 
     @media (prefers-reduced-motion: no-preference) {
-    animation: ${(props) => (props.spin ? Spin : "none")} infinite 20s linear;
+    animation: ${(props) => (props.spin ? Spin : "none")} infinite 10s linear;
     }
 `;
 

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import { BGMButton, Heading, Image } from './styles';
+import { Time } from './styles';
 import Celebration from '../Celebration';
 
 const WeekendTimer = () => {
@@ -38,7 +38,14 @@ const WeekendTimer = () => {
       {isWeekend(time) ? (
         <Celebration />
       ) : (
+        <>
         <h1>Boooo</h1>
+        <h1>There's still</h1>
+        <Time>
+          {timeUntilWeekend(time).days}d {timeUntilWeekend(time).hours}h {timeUntilWeekend(time).minutes}m {timeUntilWeekend(time).seconds}s
+        </Time>
+        <h1>until the weekend</h1>
+        </>
       )}
     </>
   )
