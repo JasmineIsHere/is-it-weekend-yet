@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/is-it-weekend-yet/static/css/main.e6c13ad2.css",
+    "main.js": "/is-it-weekend-yet/static/js/main.8faa8689.js",
+    "index.html": "/is-it-weekend-yet/index.html",
+    "main.e6c13ad2.css.map": "/is-it-weekend-yet/static/css/main.e6c13ad2.css.map",
+    "main.8faa8689.js.map": "/is-it-weekend-yet/static/js/main.8faa8689.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.8faa8689.js"
+  ]
+}
