@@ -27,7 +27,7 @@ const WeekendTimer = () => {
     if (daysUntilWeekend === 0 && (hours > 0 || minutes > 0 || seconds > 0)) {
       daysUntilWeekend = 7; // If it's Saturday but past midnight, count to next Saturday
     }
-    const totalHours = daysUntilWeekend * 24 - hours - 1;
+    const totalHours = hours;
     const totalMinutes = 59 - minutes;
     const totalSeconds = 59 - seconds;
     return { days: daysUntilWeekend, hours: totalHours, minutes: totalMinutes, seconds: totalSeconds };
@@ -39,7 +39,6 @@ const WeekendTimer = () => {
         <Celebration />
       ) : (
         <>
-        <h1>Boooo</h1>
         <h1>There's still</h1>
         <Time>
           {timeUntilWeekend(time).days}d {timeUntilWeekend(time).hours}h {timeUntilWeekend(time).minutes}m {timeUntilWeekend(time).seconds}s

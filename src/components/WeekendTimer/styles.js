@@ -11,6 +11,6 @@ export const PageContainer = styled.div`
 `;
 
 export const Time = styled.div`
-    font-size: 2em;
+    font-size: 5em;
     margin: 20px 0;
 `;
