@@ -1,4 +1,3 @@
-import ReactCurvedText from 'react-curved-text';
 import { AppContainer, LoadContainer } from './App';
 import GlobalStyle from './GlobalStyle';
 import WeekendTimer from './components/WeekendTimer';
@@ -26,7 +25,7 @@ function App() {
         {isLoading ? (
           <LoadContainer onClick={endLoad}>
             <Logo/>
-            <h2>Click to skip loading</h2>
+            <p>Click to skip loading</p>
           </LoadContainer>
         ) : (
           <WeekendTimer />

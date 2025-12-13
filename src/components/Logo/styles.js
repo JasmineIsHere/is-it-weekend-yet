@@ -1,7 +1,7 @@
 import styled, { keyframes } from "styled-components";
 
 export const Heading = styled.h1`
-    font-size: 5em;
+    font-size: 3em;
     font-family: 'Rubik Bubbles', system-ui;
     margin: 0;
 

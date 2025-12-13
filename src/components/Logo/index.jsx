@@ -5,12 +5,12 @@ const Logo = () => {
   return (
     <Heading spin>
           <ReactCurvedText
-            width={600}
-            height={600}
-            cx={300}
-            cy={300}
-            rx={200}
-            ry={200}
+            width={300}
+            height={300}
+            cx={150}
+            cy={150}
+            rx={100}
+            ry={100}
             startOffset={0}
             reversed={true}
             text="Is it weekend yet?"
